@@ -1,0 +1,10 @@
+# Nextflow
+.nextflow*
+work/
+
+# Python
+venv
+
+# MacOS
+.DS_Store
+
