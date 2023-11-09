@@ -23,3 +23,4 @@ mv nextflow venv/bin/
 ## Using this template
 
 - Replace `WorkflowName` with actual workflow name in all files.
+- Test CI comment
