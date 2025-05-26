@@ -1,0 +1,22 @@
+nextflow_pipeline {
+    name "Test pipeline"
+    script "main.nf"
+
+    tag "pipeline"
+    tag "local"
+    tag "pipeline/local"
+
+
+    test("Run pipeline test") { //TODO: add more information specific to this test in the test name
+        //
+        // TODO: add a when {} block if necessary
+        // By default, nf-test will use tests/nextflow.config, but test specific config files may be provided using:
+        // config "tests/<other_file>.config"
+        then{
+            assert workflow.success // TODO: add other assertions to test pipeline execution
+        }
+    }
+
+    //TODO: add more pipeline tests if usefull
+
+}
