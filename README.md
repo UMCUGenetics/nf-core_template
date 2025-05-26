@@ -17,7 +17,9 @@ pip install --upgrade pip
 pip install nf-core
 
 curl -s https://get.nextflow.io | bash
+curl -fsSL https://get.nf-test.com | bash
 mv nextflow venv/bin/
+mv nf-test venv/bin/
 ```
 
 ## Using this template
@@ -26,4 +28,3 @@ mv nextflow venv/bin/
 
 ## ToDo
 
-- Add minimal workflow test CI and test configs.

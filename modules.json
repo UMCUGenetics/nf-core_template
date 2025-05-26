@@ -14,6 +14,45 @@
             "branch": "master",
             "git_sha": "ccacf6f5de6df3bc6d73b665c1fd2933d8bbc290",
             "installed_by": ["modules"]
+          },
+          "samtools/flagstat": {
+            "branch": "master",
+            "git_sha": "05954dab2ff481bcb999f24455da29a5828af08d",
+            "installed_by": ["bam_stats_samtools"]
+          },
+          "samtools/idxstats": {
+            "branch": "master",
+            "git_sha": "05954dab2ff481bcb999f24455da29a5828af08d",
+            "installed_by": ["bam_stats_samtools"]
+          },
+          "samtools/index": {
+            "branch": "master",
+            "git_sha": "05954dab2ff481bcb999f24455da29a5828af08d",
+            "installed_by": ["bam_dedup_stats_samtools_umitools"]
+          },
+          "samtools/stats": {
+            "branch": "master",
+            "git_sha": "05954dab2ff481bcb999f24455da29a5828af08d",
+            "installed_by": ["bam_stats_samtools"]
+          },
+          "umitools/dedup": {
+            "branch": "master",
+            "git_sha": "05954dab2ff481bcb999f24455da29a5828af08d",
+            "installed_by": ["bam_dedup_stats_samtools_umitools"]
+          }
+        }
+      },
+      "subworkflows": {
+        "nf-core": {
+          "bam_dedup_stats_samtools_umitools": {
+            "branch": "master",
+            "git_sha": "05954dab2ff481bcb999f24455da29a5828af08d",
+            "installed_by": ["subworkflows"]
+          },
+          "bam_stats_samtools": {
+            "branch": "master",
+            "git_sha": "05954dab2ff481bcb999f24455da29a5828af08d",
+            "installed_by": ["bam_dedup_stats_samtools_umitools"]
           }
         }
       }

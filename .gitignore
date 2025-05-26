@@ -1,7 +1,7 @@
 # Nextflow
 .nextflow*
 work/
-
+.nf-test*
 # Python
 venv
 
